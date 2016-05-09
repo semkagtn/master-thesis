@@ -254,29 +254,29 @@ log-entropy (см. формулу~\ref{eq:log_entropy}). Как видно,
 \begin{tabular}{|c|c|c|c|c|}\hline
     \textbf{Формула} & \boldmath$l(x)$ & \boldmath$g(x)$ & \textbf{Определение пола} & \textbf{Определение возраста} \\\hline
     \multicolumn{5}{|c|}{\textbf{20 признаков}} \\\hline
-    TF-IDF & $1$ & $1$ & \textbf{73.33\%} & \textbf{4.72} \\\hline
-    TF-IDF & $\log{x}$ & $1$ & 72.83\% & 4.80 \\\hline
-    TF-IDF & $\log{x}$ & $\log{x}$ & 70.56\% & 4.91 \\\hline
-    TF-IDF & $\log{x}$ & $\sqrt{x}$ & 67.08\% & 5.49 \\\hline
-    TF-IDF & $\sqrt{x}$ & $1$ & 72.80\% & 4.79 \\\hline
-    TF-IDF & $\sqrt{x}$ & $\log{x}$ & 70.61\% & 4.91 \\\hline
-    TF-IDF & $\sqrt{x}$ & $\sqrt{x}$ & 67.07\% & 5.48 \\\hline
-    TF-IDF & $x$ & $1$ & 70.74\% & 5.02 \\\hline
-    TF-IDF & $x$ & $\log{x}$ & 69.38\% & 5.12 \\\hline
-    TF-IDF & $x$ & $\sqrt{x}$ & 67.44\% & 5.45 \\\hline
-    log-entropy & --- & --- & 71.15\% & 4.90 \\\hline
+    TF-IDF & $1$ & $1$ & \textbf{73,33\%} & \textbf{4,72} \\\hline
+    TF-IDF & $\log{x}$ & $1$ & 72,83\% & 4,80 \\\hline
+    TF-IDF & $\log{x}$ & $\log{x}$ & 70,56\% & 4,91 \\\hline
+    TF-IDF & $\log{x}$ & $\sqrt{x}$ & 67,08\% & 5,49 \\\hline
+    TF-IDF & $\sqrt{x}$ & $1$ & 72,80\% & 4,79 \\\hline
+    TF-IDF & $\sqrt{x}$ & $\log{x}$ & 70,61\% & 4,91 \\\hline
+    TF-IDF & $\sqrt{x}$ & $\sqrt{x}$ & 67,07\% & 5,48 \\\hline
+    TF-IDF & $x$ & $1$ & 70,74\% & 5,02 \\\hline
+    TF-IDF & $x$ & $\log{x}$ & 69,38\% & 5,12 \\\hline
+    TF-IDF & $x$ & $\sqrt{x}$ & 67,44\% & 5,45 \\\hline
+    log-entropy & --- & --- & 71,15\% & 4,90 \\\hline
     \multicolumn{5}{|c|}{\textbf{200 признаков}} \\\hline
-    TF-IDF & $1$ & $1$ & \textbf{82.46\%} & \textbf{3.54} \\\hline
-    TF-IDF & $\log{x}$ & $1$ & 81.59\% & 3.64 \\\hline
-    TF-IDF & $\log{x}$ & $\log{x}$ & 81.67\% & 3.58 \\\hline
-    TF-IDF & $\log{x}$ & $\sqrt{x}$ & 80.08\% & 5.49 \\\hline
-    TF-IDF & $\sqrt{x}$ & $1$ & 72.80\% & 4.79 \\\hline
-    TF-IDF & $\sqrt{x}$ & $\log{x}$ & 70.61\% & 4.91 \\\hline
-    TF-IDF & $\sqrt{x}$ & $\sqrt{x}$ & 67.07\% & 5.48 \\\hline
-    TF-IDF & $x$ & $1$ & 70.74\% & 5.02 \\\hline
-    TF-IDF & $x$ & $\log{x}$ & 69.38\% & 5.12 \\\hline
-    TF-IDF & $x$ & $\sqrt{x}$ & 67.44\% & 5.45 \\\hline
-    log-entropy & --- & --- & 71.15\% & 4.90 \\\hline
+    TF-IDF & $1$ & $1$ & \textbf{82,46\%} & \textbf{3,54} \\\hline
+    TF-IDF & $\log{x}$ & $1$ & 81,59\% & 3,64 \\\hline
+    TF-IDF & $\log{x}$ & $\log{x}$ & 81,67\% & 3,58 \\\hline
+    TF-IDF & $\log{x}$ & $\sqrt{x}$ & 80,08\% & 5,49 \\\hline
+    TF-IDF & $\sqrt{x}$ & $1$ & 72,80\% & 4,79 \\\hline
+    TF-IDF & $\sqrt{x}$ & $\log{x}$ & 70,61\% & 4,91 \\\hline
+    TF-IDF & $\sqrt{x}$ & $\sqrt{x}$ & 67,07\% & 5,48 \\\hline
+    TF-IDF & $x$ & $1$ & 70,74\% & 5,02 \\\hline
+    TF-IDF & $x$ & $\log{x}$ & 69,38\% & 5,12 \\\hline
+    TF-IDF & $x$ & $\sqrt{x}$ & 67,44\% & 5,45 \\\hline
+    log-entropy & --- & --- & 81,46\% & 3,59 \\\hline
 \end{tabular}
 \end{table}
 
@@ -308,21 +308,21 @@ log-entropy (см. формулу~\ref{eq:log_entropy}). Как видно,
 \begin{tabular}{|c|c|c|}\hline
     \boldmath$f(a)$ & \textbf{Определение пола} & \textbf{Определение возраста} \\\hline
     \multicolumn{3}{|c|}{\textbf{20 признаков}} \\\hline
-    $\frac{1}{\log(a + 1)}$ & \textbf{71.68\%} & \textbf{4.83} \\\hline
-    $\frac{1}{\sqrt{a}}$ & 71.56\% & 4.90 \\\hline
-    $\frac{1}{a^2}$ & 71.17\% & 4.97 \\\hline
-    $\frac{1}{a}$ & 71.19\% & 4.93 \\\hline
-    $51 - a$ & 71.38\% & 4.87 \\\hline
-    $\log{51} - \log{a}$ & 71.02\% & 4.93 \\\hline
-    $\sqrt{51} - \sqrt{a}$ & 70.96\% & 4.90 \\\hline
+    $\frac{1}{\log(a + 1)}$ & \textbf{71,68\%} & \textbf{4,83} \\\hline
+    $\frac{1}{\sqrt{a}}$ & 71,56\% & 4,90 \\\hline
+    $\frac{1}{a^2}$ & 71,17\% & 4,97 \\\hline
+    $\frac{1}{a}$ & 71,19\% & 4,93 \\\hline
+    $51 - a$ & 71,38\% & 4,87 \\\hline
+    $\log{51} - \log{a}$ & 71,02\% & 4,93 \\\hline
+    $\sqrt{51} - \sqrt{a}$ & 70,96\% & 4,90 \\\hline
     \multicolumn{3}{|c|}{\textbf{200 признаков}} \\\hline
-    $\frac{1}{\log(a + 1)}$ & \textbf{79.65\%} & \textbf{3.93} \\\hline
-    $\frac{1}{\sqrt{a}}$ & 79.39\% & 3.97 \\\hline
-    $\frac{1}{a^2}$ & 77.51\% & 4.06 \\\hline
-    $\frac{1}{a}$ & 77.67\% & 4.13 \\\hline
-    $51 - a$ & 79.01\% & 3.98 \\\hline
-    $\log{51} - \log{a}$ & 78.73\% & 4.04 \\\hline
-    $\sqrt{51} - \sqrt{a}$ & 79.02\% & 4.01 \\\hline
+    $\frac{1}{\log(a + 1)}$ & \textbf{79,65\%} & \textbf{3,93} \\\hline
+    $\frac{1}{\sqrt{a}}$ & 79,39\% & 3,97 \\\hline
+    $\frac{1}{a^2}$ & 77,51\% & 4,06 \\\hline
+    $\frac{1}{a}$ & 77,67\% & 4,13 \\\hline
+    $51 - a$ & 79,01\% & 3,98 \\\hline
+    $\log{51} - \log{a}$ & 78,73\% & 4,04 \\\hline
+    $\sqrt{51} - \sqrt{a}$ & 79,02\% & 4,01 \\\hline
 \end{tabular}
 \end{table}
 
@@ -350,29 +350,29 @@ log-entropy (см. формулу~\ref{eq:log_entropy}). Как видно,
 \begin{tabular}{|c|c|c|c|c|}\hline
     \textbf{Формула} & \boldmath$l(x)$ & \boldmath$g(x)$ & \textbf{Определение пола} & \textbf{Определение возраста} \\\hline
     \multicolumn{5}{|c|}{\textbf{20 признаков}} \\\hline
-    TF-IDF & $1$ & $1$ & 79.59\% & 3.14 \\\hline
-    TF-IDF & $\log{x}$ & $1$ & 79.32\% & 3.15 \\\hline
-    TF-IDF & $\log{x}$ & $\log{x}$ & 78.06\% & 3.43 \\\hline
-    TF-IDF & $\log{x}$ & $\sqrt{x}$ & 78.04\% & 3.43 \\\hline
-    TF-IDF & $\sqrt{x}$ & $1$ & 78.33\% & 3.34 \\\hline
-    TF-IDF & $\sqrt{x}$ & $\log{x}$ & 78.05\% & 3.43 \\\hline
-    TF-IDF & $\sqrt{x}$ & $\sqrt{x}$ & 78.01\% & 3.43 \\\hline
-    TF-IDF & $x$ & $1$ & 78.12\% & 3.40 \\\hline
-    TF-IDF & $x$ & $\log{x}$ & 78.00\% & 3.43 \\\hline
-    TF-IDF & $x$ & $\sqrt{x}$ & 78.00\% & 3.43 \\\hline
-    log-entropy & --- & --- & \textbf{81.91\%} & \textbf{2.84} \\\hline
+    TF-IDF & $1$ & $1$ & 79,59\% & 3,14 \\\hline
+    TF-IDF & $\log{x}$ & $1$ & 79,32\% & 3,15 \\\hline
+    TF-IDF & $\log{x}$ & $\log{x}$ & 78,06\% & 3,43 \\\hline
+    TF-IDF & $\log{x}$ & $\sqrt{x}$ & 78,04\% & 3,43 \\\hline
+    TF-IDF & $\sqrt{x}$ & $1$ & 78,33\% & 3,34 \\\hline
+    TF-IDF & $\sqrt{x}$ & $\log{x}$ & 78,05\% & 3,43 \\\hline
+    TF-IDF & $\sqrt{x}$ & $\sqrt{x}$ & 78,01\% & 3,43 \\\hline
+    TF-IDF & $x$ & $1$ & 78,12\% & 3,40 \\\hline
+    TF-IDF & $x$ & $\log{x}$ & 78,00\% & 3,43 \\\hline
+    TF-IDF & $x$ & $\sqrt{x}$ & 78,00\% & 3,43 \\\hline
+    log-entropy & --- & --- & \textbf{81,91\%} & \textbf{2,84} \\\hline
     \multicolumn{5}{|c|}{\textbf{200 признаков}} \\\hline
     TF-IDF & $1$ & $1$ & -\% & - \\\hline
     TF-IDF & $\log{x}$ & $1$ & -\% & - \\\hline
-    TF-IDF & $\log{x}$ & $\log{x}$ & 78.05\% & 3.42 \\\hline
+    TF-IDF & $\log{x}$ & $\log{x}$ & 78,05\% & 3,42 \\\hline
     TF-IDF & $\log{x}$ & $\sqrt{x}$ & -\% & - \\\hline
     TF-IDF & $\sqrt{x}$ & $1$ & -\% & - \\\hline
-    TF-IDF & $\sqrt{x}$ & $\log{x}$ & 78.03\% & 3.43 \\\hline
+    TF-IDF & $\sqrt{x}$ & $\log{x}$ & 78,03\% & 3,43 \\\hline
     TF-IDF & $\sqrt{x}$ & $\sqrt{x}$ & -\% & - \\\hline
     TF-IDF & $x$ & $1$ & -\% & - \\\hline
-    TF-IDF & $x$ & $\log{x}$ & 78.01\% & 3.43 \\\hline
-    TF-IDF & $x$ & $\sqrt{x}$ & 78.00\% & 3.43 \\\hline
-    log-entropy & --- & --- & \textbf{83.86\%} & \textbf{2.65} \\\hline
+    TF-IDF & $x$ & $\log{x}$ & 78,01\% & 3,43 \\\hline
+    TF-IDF & $x$ & $\sqrt{x}$ & 78,00\% & 3,43 \\\hline
+    log-entropy & --- & --- & \textbf{83,86\%} & \textbf{2,65} \\\hline
 \end{tabular}
 \end{table}
 
@@ -402,21 +402,21 @@ log-entropy (см. формулу~\ref{eq:log_entropy}). Как видно,
 \begin{tabular}{|c|c|c|}\hline
     \boldmath$f(a)$ & \textbf{Определение пола} & \textbf{Определение возраста} \\\hline
     \multicolumn{3}{|c|}{\textbf{20 признаков}} \\\hline
-    $\frac{1}{\log(a + 1)}$ & 80.38\% & 2.98 \\\hline
-    $\frac{1}{\sqrt{a}}$ & \textbf{81.55\%} & \textbf{2.90} \\\hline
-    $\frac{1}{a^2}$ & 72.27\% & 4.64 \\\hline
-    $\frac{1}{a}$ & 78.92\% & 3.75 \\\hline
-    $51 - a$ & 77.90\% & 3.48 \\\hline
-    $\log{51} - \log{a}$ & 78.11\% & 3.39 \\\hline
-    $\sqrt{51} - \sqrt{a}$ & 78.15\% & 3.42 \\\hline
+    $\frac{1}{\log(a + 1)}$ & 80,38\% & 2,98 \\\hline
+    $\frac{1}{\sqrt{a}}$ & \textbf{81,55\%} & \textbf{2,90} \\\hline
+    $\frac{1}{a^2}$ & 72,27\% & 4,64 \\\hline
+    $\frac{1}{a}$ & 78,92\% & 3,75 \\\hline
+    $51 - a$ & 77,90\% & 3,48 \\\hline
+    $\log{51} - \log{a}$ & 78,11\% & 3,39 \\\hline
+    $\sqrt{51} - \sqrt{a}$ & 78,15\% & 3,42 \\\hline
     \multicolumn{3}{|c|}{\textbf{200 признаков}} \\\hline
-    $\frac{1}{\log(a + 1)}$ & 78.56\% & 3.15 \\\hline
-    $\frac{1}{\sqrt{a}}$ & 80.32\% & \textbf{2.99} \\\hline
-    $\frac{1}{a^2}$ & 74.77\% & 4.42 \\\hline
-    $\frac{1}{a}$ & \textbf{80.89\%} & 3.35 \\\hline
-    $51 - a$ & 77.82\% & 3.49 \\\hline
-    $\log{51} - \log{a}$ & 78.18\% & 3.40 \\\hline
-    $\sqrt{51} - \sqrt{a}$ & 78.11\% & 3.42 \\\hline
+    $\frac{1}{\log(a + 1)}$ & 78,56\% & 3,15 \\\hline
+    $\frac{1}{\sqrt{a}}$ & 80,32\% & \textbf{2,99} \\\hline
+    $\frac{1}{a^2}$ & 74,77\% & 4,42 \\\hline
+    $\frac{1}{a}$ & \textbf{80,89\%} & 3,35 \\\hline
+    $51 - a$ & 77,82\% & 3,49 \\\hline
+    $\log{51} - \log{a}$ & 78,18\% & 3,40 \\\hline
+    $\sqrt{51} - \sqrt{a}$ & 78,11\% & 3,42 \\\hline
 \end{tabular}
 \end{table}
 
